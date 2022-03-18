@@ -1,0 +1,24 @@
+@media screen and (max-width: 1000px) {
+    body{
+        background-position-x: -200px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    body{
+        background-position-x: -550px;
+    }
+
+    #start{
+        height: 150px;
+        width: 90%;
+    }
+    #start::before{
+        height: 93.5%;
+        width: 98%;
+    }
+
+    .container-content-active{
+        width: 90%;
+    }
+}
